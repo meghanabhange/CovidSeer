@@ -2,10 +2,10 @@
   
     
         "post0": {
-            "title": "Fastpages Notebook Blog Post",
-            "content": ". Assumptions . passenger_count = 60 | private_bus_to_public_bus = 50 | travel_risk = 1 / 10 ** 5 | confirmed_risk = 20 | qtn_risk = 1 / 10 ** 3 | . fig.show() . . .",
-            "url": "https://meghanabhange.github.io/DistrictAnalysisCovidIndia/jupyter/2020/04/01/DistrictAnalysisForKA_20200327.html",
-            "relUrl": "/jupyter/2020/04/01/DistrictAnalysisForKA_20200327.html",
+            "title": "Title",
+            "content": ". District Analysis for KA . Currently plotting all the parameters againt District . toc:true- badges: true | comments: true | categories: [jupyter] | . Assumptions . passenger_count = 60 | private_bus_to_public_bus = 50 | travel_risk = 1 / 10 ** 5 | confirmed_risk = 20 | qtn_risk = 1 / 10 ** 3 | . fig.show() . . .",
+            "url": "https://meghanabhange.github.io/DistrictAnalysisCovidIndia/2020/04/01/DistrictAnalysisForKA_20200327.html",
+            "relUrl": "/2020/04/01/DistrictAnalysisForKA_20200327.html",
             "date": " • Apr 1, 2020"
         }
         
