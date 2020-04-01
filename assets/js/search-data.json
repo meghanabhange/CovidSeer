@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Assam District Analysis",
-            "content": "# get_risk_estimates . District Vs At Risk . Map Plot .",
+            "content": "District Vs At Risk . Map Plot . . . Infections Plot . /usr/local/lib/python3.6/dist-packages/statsmodels/tools/_testing.py:19: FutureWarning: pandas.util.testing is deprecated. Use the functions in the public API at pandas.testing instead. .",
             "url": "https://meghanabhange.github.io/DistrictAnalysisCovidIndia/2020/04/01/DistrictAnalysisAssam.html",
             "relUrl": "/2020/04/01/DistrictAnalysisAssam.html",
             "date": " • Apr 1, 2020"
