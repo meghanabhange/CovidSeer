@@ -14,7 +14,7 @@
     
         ,"post1": {
             "title": "Assam District Analysis",
-            "content": ". Running SIERS Plus for Assam . Challenge: Assam has zero cases right now . display(a) .",
+            "content": ". Running SIERS Plus for Assam . Challenge: Assam has zero cases right now . display(a) . Population . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;Population&quot;], name=&#39;Population&#39;)) fig.show() . . . Inflow . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;Inflow&quot;], name=&#39;Inflow&#39;)) fig.show() . . . InitI . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;initI&quot;], name=&#39;initI&#39;)) fig.show() . . . initN . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;initN&quot;], name=&#39;initN&#39;)) fig.show() . . . Day14 . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;day14&quot;], name=&#39;day14&#39;)) fig.show() . . . Dat 21 . fig = go.Figure(data=go.Scatter(x=assam_df[&quot;district&quot;], y=assam_df[&quot;day21&quot;], name=&#39;day21&#39;)) fig.show() . . .",
             "url": "https://meghanabhange.github.io/DistrictAnalysisCovidIndia/2020/04/01/DistrictAnalysisAssam.html",
             "relUrl": "/2020/04/01/DistrictAnalysisAssam.html",
             "date": " • Apr 1, 2020"
