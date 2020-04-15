@@ -107,7 +107,7 @@ window.onload = wrap_img;
        • <span class="read-time" title="Estimated read time">
     
     
-      3 min read
+      2 min read
     
 </span></p>
 
@@ -176,79 +176,6 @@ If you have questions, comments, or improvments feel free to get in touch: [hell
 </div>
 </div>
 </div>
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">state_map</span> <span class="o">=</span> <span class="p">{</span><span class="s2">"AP"</span> <span class="p">:</span> <span class="s2">"Andhra Pradesh"</span><span class="p">,</span>
-<span class="s2">"AR"</span> <span class="p">:</span> <span class="s2">"Arunachal Pradesh"</span><span class="p">,</span>
-<span class="s2">"AS"</span> <span class="p">:</span> <span class="s2">"Assam"</span><span class="p">,</span>
-<span class="s2">"BR"</span> <span class="p">:</span> <span class="s2">"Bihar"</span><span class="p">,</span>
-<span class="s2">"CG"</span> <span class="p">:</span> <span class="s2">"Chhattisgarh"</span><span class="p">,</span>
-<span class="s2">"GA"</span> <span class="p">:</span> <span class="s2">"Goa"</span><span class="p">,</span>
-<span class="s2">"GJ"</span> <span class="p">:</span> <span class="s2">"Gujarat"</span><span class="p">,</span>
-<span class="s2">"HR"</span> <span class="p">:</span> <span class="s2">"Haryana"</span><span class="p">,</span>
-<span class="s2">"HP"</span> <span class="p">:</span> <span class="s2">"Himachal Pradesh"</span><span class="p">,</span>
-<span class="s2">"JK"</span> <span class="p">:</span> <span class="s2">"Jammu and Kashmir"</span><span class="p">,</span>
-<span class="s2">"JH"</span> <span class="p">:</span> <span class="s2">"Jharkhand"</span><span class="p">,</span>
-<span class="s2">"KA"</span> <span class="p">:</span> <span class="s2">"Karnataka"</span><span class="p">,</span>
-<span class="s2">"KL"</span> <span class="p">:</span> <span class="s2">"Kerala"</span><span class="p">,</span>
-<span class="s2">"MP"</span> <span class="p">:</span> <span class="s2">"Madhya Pradesh"</span><span class="p">,</span>
-<span class="s2">"MH"</span> <span class="p">:</span> <span class="s2">"Maharashtra"</span><span class="p">,</span>
-<span class="s2">"MN"</span> <span class="p">:</span> <span class="s2">"Manipur"</span><span class="p">,</span>
-<span class="s2">"ML"</span> <span class="p">:</span> <span class="s2">"Meghalaya"</span><span class="p">,</span>
-<span class="s2">"MZ"</span> <span class="p">:</span> <span class="s2">"Mizoram"</span><span class="p">,</span>
-<span class="s2">"NL"</span> <span class="p">:</span> <span class="s2">"Nagaland"</span><span class="p">,</span>
-<span class="s2">"OR"</span> <span class="p">:</span> <span class="s2">"Orissa"</span><span class="p">,</span>
-<span class="s2">"PB"</span> <span class="p">:</span> <span class="s2">"Punjab"</span><span class="p">,</span>
-<span class="s2">"RJ"</span> <span class="p">:</span> <span class="s2">"Rajasthan"</span><span class="p">,</span>
-<span class="s2">"SK"</span> <span class="p">:</span> <span class="s2">"Sikkim"</span><span class="p">,</span>
-<span class="s2">"TN"</span> <span class="p">:</span> <span class="s2">"Tamil Nadu"</span><span class="p">,</span>
-<span class="s2">"TR"</span> <span class="p">:</span> <span class="s2">"Tripura"</span><span class="p">,</span>
-<span class="s2">"UK"</span> <span class="p">:</span> <span class="s2">"Uttarakhand"</span><span class="p">,</span>
-<span class="s2">"UP"</span> <span class="p">:</span> <span class="s2">"Uttar Pradesh"</span><span class="p">,</span>
-<span class="s2">"WB"</span> <span class="p">:</span> <span class="s2">"West Bengal"</span><span class="p">,</span>
-<span class="s2">"TN"</span> <span class="p">:</span> <span class="s2">"Tamil Nadu"</span><span class="p">,</span>
-<span class="s2">"TR"</span> <span class="p">:</span> <span class="s2">"Tripura"</span><span class="p">,</span>
-<span class="s2">"AN"</span> <span class="p">:</span> <span class="s2">"Andaman and Nicobar Islands"</span><span class="p">,</span>
-<span class="s2">"CH"</span> <span class="p">:</span> <span class="s2">"Chandigarh"</span><span class="p">,</span>
-<span class="s2">"DH"</span> <span class="p">:</span> <span class="s2">"Dadra and Nagar Haveli"</span><span class="p">,</span>
-<span class="s2">"DD"</span> <span class="p">:</span> <span class="s2">"Daman and Diu"</span><span class="p">,</span>
-<span class="s2">"DL"</span> <span class="p">:</span> <span class="s2">"Delhi"</span><span class="p">,</span>
-<span class="s2">"LD"</span> <span class="p">:</span> <span class="s2">"Lakshadweep"</span><span class="p">,</span>
-<span class="s2">"PY"</span> <span class="p">:</span> <span class="s2">"Pondicherry"</span><span class="p">}</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
-    
-    
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># #hide</span>
-<span class="c1"># for key in set(state):</span>
-<span class="c1">#     if key.upper() not in state_map.keys():</span>
-<span class="c1">#         print(key)</span>
-</pre></div>
-
-    </div>
-</div>
-</div>
-
-</div>
-    
-
 <div class="cell border-box-sizing text_cell rendered">
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
